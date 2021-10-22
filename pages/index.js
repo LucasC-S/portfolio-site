@@ -1,6 +1,11 @@
-import { Container, Box, Heading, Image, Link, useColorModeValue, Button } from "@chakra-ui/react"
+import { Container, Box, Heading, Image, Link, useColorModeValue, Button, List, ListItem, Icon } from "@chakra-ui/react"
 import NextLink from 'next/link'
 import { ChevronRightIcon } from "@chakra-ui/icons"
+import {
+    IoLogoInstagram,
+    IoLogoGithub,
+    IoLogoDiscord
+} from 'react-icons/io5'
 import Layout from "../components/layouts/article"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
@@ -81,8 +86,42 @@ const Page = () => {
                         My Interests
                     </Heading>
                     <Paragraph>
-                        Coding | Design | Philosphy | Gaming
+                    Coding | Design | Philosphy | Tabletop Gaming | Writing | Film & TV
                     </Paragraph>
+                </Section>
+
+                <Section delay={0.4}>
+                    <Heading as="h3" variant="section-title">
+                        Find me at
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Link href="https://github.com/LucasC-S" target="_blank">
+                                <Button variant="ghost" colorScheme="facebook" leftIcon={<Icon as={IoLogoGithub} />}>
+                                    @LucasC-S 
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://www.instagram.com/joos.stein/" target="_blank">
+                                <Button variant="ghost" colorScheme="facebook" leftIcon={<Icon as={IoLogoInstagram} />}>
+                                    @joos.stein
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Button variant="ghost" colorScheme="facebook" leftIcon={<Icon as={IoLogoDiscord} />}>
+                                @TheOven#8994
+                            </Button>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://www.instagram.com/joos.stein/" target="_blank">
+                                <Button variant="ghost" colorScheme="facebook" leftIcon={<Icon as={IoLogoInstagram} />}>
+                                    @joos.stein
+                                </Button>
+                            </Link>
+                        </ListItem>
+                    </List>
                 </Section>
             </Container>
             </Layout>

@@ -29,7 +29,7 @@ const Logo = () => {
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                     fontFamily='M PLUS Rounded 1c'
                     fontWeight="bold"
-                    ml={3}>The Oven</Text>
+                    ml={3}>Lucas Crawhall-Stein</Text>
                 </LogoBox>
             </a>
         </Link>
