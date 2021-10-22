@@ -1,7 +1,6 @@
 {
   "name": "oven-homepage",
   "version": "1.0.0",
-  "description": "",
   "directories": {
     "lib": "lib"
   },
@@ -19,6 +18,8 @@
     "@chakra-ui/react": "^1.6.10",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
+    "chakra": "^0.0.3",
+    "emotion": "^11.0.0",
     "framer-motion": "^4.1.17",
     "next": "^11.1.2",
     "react": "^17.0.2",
@@ -30,5 +31,15 @@
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.2",
     "prettier": "^2.4.1"
-  }
+  },
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasC-S/portfolio-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasC-S/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/LucasC-S/portfolio-site#readme",
+  "description": ""
 }

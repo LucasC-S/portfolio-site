@@ -18,7 +18,7 @@ padding: 10px
 `
 
 const Logo = () => {
-    const frogImg = `/frog.png`
+    const frogImg = `/me.png`
 
     return (
         <Link href="/">

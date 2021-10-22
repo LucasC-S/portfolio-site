@@ -11,15 +11,15 @@ const Page = () => {
     <Layout>
     <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb ={6} align="center">
-                    Hello, I&apos;m a based discord owner from Canda. I own World Roleplay and am hung like a horse.
+                    Hello, I&apos;m a novice developer based in Canda :)
                 </Box>
                 
                 <Box display={{md:'flex'}}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
-                            The Oven
+                            Lucas Crawhall-Stein
                         </Heading>
-                        <p>Uber-Chad ( Swag / Genius / Handsome )</p>
+                        <p>Student / Creator</p>
                     </Box>
                     <Box 
                     flexShrink={0} 
@@ -33,7 +33,7 @@ const Page = () => {
                         maxWidth="100px" 
                         display="inline-block" 
                         borderRadius="full" 
-                        src="/oven.jpg" 
+                        src="/me.png" 
                         alt="Profile Image" 
                         />
                     </Box>
@@ -42,14 +42,13 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         Work
                     </Heading>
-                    <Paragraph>So yeah we do a lil trolling
-                    on the web and yea we I run this shit 
-                    yea yea yea. I also am a genius who codes
-                    things like this website so yea you better
-                    respect me or you will get trolled. Yea I 
-                    am so mighty and yea I am a troller!!!
-                    Join WRP right{' '}
-                    <NextLink href="https://discord.com/invite/PrcAghzBXd"><Link>here</Link></NextLink>
+                    <Paragraph>Hi! I am Lucas, a undergraduate computer
+                    science student at Ontario Tech U. I started this 
+                    site as a blog/portfolio for myself. I've many projects
+                    on at the moment so check back in to see the posts 
+                    and works pages fill up. Also feel free to check out
+                    my spotify playlists right {' '}
+                    <NextLink href="https://open.spotify.com/user/beanie1357"><Link>here</Link></NextLink>
                     .</Paragraph>
                     <Box align = "center" my={4}>
                         <NextLink href="/works">
@@ -64,16 +63,16 @@ const Page = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>1984</BioYear>
-                        When COMMUNISM!!
+                        <BioYear>2003</BioYear>
+                        I was born!
                     </BioSection>
                     <BioSection>
-                        <BioYear>2018?</BioYear>
-                        WORL ROPELAY!! (I THINK)
+                        <BioYear>2017</BioYear>
+                        I started highschool as Ursula Franklin Academy
                     </BioSection>
                     <BioSection>
                         <BioYear>2021</BioYear>
-                        This site launched!!!
+                        I graduate highschool and begin my freshman year at Ontario Tech
                     </BioSection>
                 </Section>
 
@@ -82,7 +81,7 @@ const Page = () => {
                         My Interests
                     </Heading>
                     <Paragraph>
-                        YOUR MOM!!!
+                        Coding | Design | Philosphy | Gaming
                     </Paragraph>
                 </Section>
             </Container>

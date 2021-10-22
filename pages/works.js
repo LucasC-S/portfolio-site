@@ -2,10 +2,11 @@ import { Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import { WorkGridItem, GridItem } from '../components/grid-item'
-import thumbWRP from '../public/wrp.png'
+import thumbWRP from '../public/placeholder.png'
 
 const Works  = () => {
     return (
+        <Layout>
         <Container>
             <Heading as="h3" fontSize={20} mb={4}>
                 Works
@@ -13,8 +14,8 @@ const Works  = () => {
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="wrp" title="World Roleplay" thumbnail={thumbWRP}>
-                        The most basedest discord server
+                    <WorkGridItem id="plchdlr" title="PlaceHolder" thumbnail={thumbWRP}>
+                        placeholder
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -29,6 +30,7 @@ const Works  = () => {
                 </Section>
             </SimpleGrid>
         </Container>
+        </Layout>
     )
 }
 
