@@ -1,7 +1,7 @@
 import { Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
-import { WorkGridItem, GridItem } from '../components/grid-item'
+import { WorkGridItem } from '../components/grid-item'
 import thumbWRP from '../public/placeholder.png'
 
 const Works  = () => {

@@ -44,7 +44,7 @@ const Page = () => {
                     </Heading>
                     <Paragraph>Hi! I am Lucas, a undergraduate computer
                     science student at Ontario Tech U. I started this 
-                    site as a blog/portfolio for myself. I've many projects
+                    site as a blog/portfolio for myself. I&apos;ve many projects
                     on at the moment so check back in to see the posts 
                     and works pages fill up. Also feel free to check out
                     my spotify playlists right {' '}
