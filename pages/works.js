@@ -14,17 +14,17 @@ const Works  = () => {
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="plchdlr" title="PlaceHolder" thumbnail={thumbWRP}>
+                    <WorkGridItem id="placeholder" title="PlaceHolder" thumbnail={thumbWRP}>
                         placeholder
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="plchldr" title="PlaceHolder" thumbnail={thumbWRP}>
+                    <WorkGridItem id="placeholder" title="PlaceHolder" thumbnail={thumbWRP}>
                         placeholder
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="plchldr" title="PlaceHolder" thumbnail={thumbWRP}>
+                    <WorkGridItem id="placeholder" title="PlaceHolder" thumbnail={thumbWRP}>
                         placeholder
                     </WorkGridItem>
                 </Section>

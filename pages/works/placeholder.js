@@ -4,7 +4,7 @@ import { Title, WorkImage, Meta} from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-const Work = () => {
+const PlaceHolder = () => {
     return (
         <Layout title="PlaceHolder">
             <Container>
@@ -41,4 +41,4 @@ const Work = () => {
     )
 }
 
-export default Work
+export default PlaceHolder
