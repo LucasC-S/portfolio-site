@@ -38,7 +38,7 @@ const Page = () => {
                         maxWidth="100px" 
                         display="inline-block" 
                         borderRadius="full" 
-                        src="/me.png" 
+                        src="/me.jpg" 
                         alt="Profile Image" 
                         />
                     </Box>
@@ -47,7 +47,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         Work
                     </Heading>
-                    <Paragraph>Hi! I am Lucas, a undergraduate computer
+                    <Paragraph>Hi! I am Lucas, an undergraduate computer
                     science student at Ontario Tech U. I started this 
                     site as a blog/portfolio for myself. I&apos;ve many projects
                     on at the moment so check back in to see the posts 

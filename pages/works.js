@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid, } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import { WorkGridItem } from '../components/grid-item'
-import thumbWRP from '../public/placeholder.png'
+import thumbSite from '../public/sitesplash.png'
 
 const Works  = () => {
     return (
@@ -14,18 +14,8 @@ const Works  = () => {
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="placeholder" title="PlaceHolder" thumbnail={thumbWRP}>
-                        placeholder
-                    </WorkGridItem>
-                </Section>
-                <Section>
-                    <WorkGridItem id="placeholder" title="PlaceHolder" thumbnail={thumbWRP}>
-                        placeholder
-                    </WorkGridItem>
-                </Section>
-                <Section>
-                    <WorkGridItem id="placeholder" title="PlaceHolder" thumbnail={thumbWRP}>
-                        placeholder
+                    <WorkGridItem id="mysite" title="My Portfolio Site" thumbnail={thumbSite}>
+                        My Portfolio Site
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>

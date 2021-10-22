@@ -18,13 +18,13 @@ padding: 10px
 `
 
 const Logo = () => {
-    const frogImg = `/me.png`
+    const profImg = `/me.jpg`
 
     return (
         <Link href="/">
             <a>
                 <LogoBox>
-                    <Image src={frogImg} width={32} height={32} alt="logo"/>
+                    <Image src={profImg} width={32} height={32} alt="logo"/>
                     <Text
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                     fontFamily='M PLUS Rounded 1c'

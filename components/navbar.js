@@ -48,7 +48,7 @@ const Navbar = props => {
         >
             <Container display = "flex" p={1} maxW="container.md" wrap="wrap" align="center" justify="space-between">
                 <Flex align="center" mr ={5}>
-                    <Heading as="h1" size="lg" letterspacing={'tighter'}>
+                    <Heading as="h1" size="lg" letterSpacing={'tight'}>
                         <Logo />
                     </Heading>
                 </Flex>

@@ -1,9 +1,9 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+import { PostGridItem } from '../components/grid-item'
 
-import thumbPlaceHolder from '../public/placeholder.png'
+import thumbSite from '../public/sitesplash.png'
 
 const Posts = () => (
     <Layout title ="Posts">
@@ -12,11 +12,12 @@ const Posts = () => (
                 Recent Posts
             </Heading>
             <Section delay={0.1}>
-                <SimpleGrid columns={[1,2,2]} gap={6}>
-                    <GridItem
-                    title="PlaceHolder" 
-                    thumbnail={thumbPlaceHolder} 
-                    href='/posts' />
+                <SimpleGrid columns={[1,2,1]} gap={6}>
+                    <PostGridItem 
+                    id="post1" 
+                    title="The Site Is Live!! (Kinda)" 
+                    thumbnail={thumbSite} 
+                    />
                 </SimpleGrid>
             </Section>
         </Container>
