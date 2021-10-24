@@ -114,13 +114,6 @@ const Page = () => {
                                 @TheOven#8994
                             </Button>
                         </ListItem>
-                        <ListItem>
-                            <Link href="https://www.instagram.com/joos.stein/" target="_blank">
-                                <Button variant="ghost" colorScheme="facebook" leftIcon={<Icon as={IoLogoInstagram} />}>
-                                    @joos.stein
-                                </Button>
-                            </Link>
-                        </ListItem>
                     </List>
                 </Section>
             </Container>
