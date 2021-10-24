@@ -32,7 +32,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Blogpost</Meta>
-                        <Link href="/posts">PlaceHolder</Link>
+                        <Link href="/posts">The Site Is Live!! (Kinda)</Link>
                     </ListItem>
                 </List>
 
