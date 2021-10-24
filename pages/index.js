@@ -16,7 +16,7 @@ const Page = () => {
     <Layout>
     <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb ={6} align="center">
-                    Hello, I&apos;m a novice developer based in Canda :)
+                    Hello, I&apos;m a developer based in Canda :)
                 </Box>
                 
                 <Box display={{md:'flex'}}>
