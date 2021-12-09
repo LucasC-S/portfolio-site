@@ -1,4 +1,5 @@
 import { Container, Badge, Link, Divider, Heading } from '@chakra-ui/react'
+import NextLink from 'next/link'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -29,8 +30,8 @@ const Post = () => {
                 <P>
                     P.S If you have any suggestions for the site
                     feel free to message me on any of my socials
-                    on the <Link href="\">
-                    Home Page </Link>.
+                    on the <NextLink href="\"><Link>
+                    Home Page </Link></NextLink>.
                 </P>
             </Container>
         </Layout>

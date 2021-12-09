@@ -3,6 +3,7 @@ import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import { WorkGridItem } from '../components/grid-item'
 import thumbSite from '../public/sitesplash.png'
+import thumbMarkUp from '../public/markUp.png'
 
 const Works  = () => {
     return (
@@ -16,6 +17,11 @@ const Works  = () => {
                 <Section>
                     <WorkGridItem id="mysite" title="My Portfolio Site" thumbnail={thumbSite}>
                         My Portfolio Site
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="markup" title="MarkUp" thumbnail={thumbMarkUp}>
+                        MarkUp
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
