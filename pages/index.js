@@ -53,7 +53,7 @@ const Page = () => {
                     on at the moment so check back in to see the posts 
                     and works pages fill up. Also feel free to check out
                     my spotify playlists right {' '}
-                    <NextLink href="https://open.spotify.com/user/beanie1357"><Link>here</Link></NextLink>
+                    <Link href="https://open.spotify.com/user/beanie1357">here</Link>
                     .</Paragraph>
                     <Box align = "center" my={4}>
                         <NextLink href="/works">

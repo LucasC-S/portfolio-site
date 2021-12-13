@@ -13,7 +13,7 @@ const Work = () => {
                     My Portfolio Site <Badge>2021</Badge>
                 </Title>
                 <P>
-                    A portfolio site I developed usin NextJS, ChakraUI, 
+                    A portfolio site I developed using NextJS, ChakraUI, 
                     Three, and Motion (P.S. You&apos;re on it right now!)
                 </P>
                 <List ml={4} my={4}>

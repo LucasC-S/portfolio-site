@@ -5,6 +5,7 @@ import { PostGridItem } from '../components/grid-item'
 
 import thumbSite from '../public/sitesplash.png'
 import thumbMarkUp from '../public/markUp.png'
+import thumbCrypto from '../public/cryptosplash.png'
 
 const Posts = () => (
     <Layout title ="Posts">
@@ -14,6 +15,11 @@ const Posts = () => (
             </Heading>
             <Section delay={0.1}>
                 <SimpleGrid columns={[1,2,1]} gap={6}>
+                    <PostGridItem
+                    id="post3"
+                    title="Cryptonite and MarkUp Math"
+                    thumbnail={thumbCrypto}
+                    />
                     <PostGridItem
                     id="post2"
                     title="Meet: MarkUp"

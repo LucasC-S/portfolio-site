@@ -7,38 +7,36 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
     return (
-        <Layout title="MarkUp">
+        <Layout title="Cryptonite">
             <Container>
                 <Title>
-                    MarkUp <Badge>2021</Badge>
+                    Cryptonite <Badge>2021</Badge>
                 </Title>
                 <P>
-                    A minimalist markdown editor with preview and syntax highlighting.
-                    Built in typescript react and deployed via electron and vite.
+                    A crypto information site I developed using React, Redux, and Ant Design.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Github Release</Meta>
-                        <Link href='https://github.com/LucasC-S/markUp/releases'>
-                            MarkUp/releases <ExternalLinkIcon mx="2px" />
+                        <Meta>Website</Meta>
+                        <Link href='https://crypto-nite.vercel.app'>
+                            crypto-nite.vercel.app <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Mac, Windows, and Linux</span>
+                        <span>Your favourite browser on any device</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>React, Vite, Electron, CodeMirror, Remark, Rehype</span>
+                        <span>React, Redux, Ant Design</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Blogpost</Meta>
-                        <NextLink href="/posts/post2"><Link>Meet: Markup</Link></NextLink>
+                        <NextLink href="/posts/post3"><Link>Cryptonite and MarkUp Math</Link></NextLink>
                     </ListItem>
                 </List>
 
-                <WorkImage src="/markUp.png" alt="MarkUp" />
-                <WorkImage src="/markUpMath.png" alt="MarkUpMath" />
+                <WorkImage src="/cryptosplash.png" alt="MySite" />
             </Container>
         </Layout>
     )
