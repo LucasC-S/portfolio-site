@@ -14,7 +14,7 @@ const Post = () => {
                 <Divider />
                 <P>
                     I&apos;m back after just a few days! I&apos;ve built up a
-                    crypto information hub at <Link href="https://crypto-nite.vercel.app">
+                    crypto information hub at <Link href="https://crypto-nite.vercel.app/news">
                     https://crypto-nite.vercel.app</Link> to 
                     get some practice with React Redux and I&apos;ve upgraded
                     MarkUp to support Tex syntax for math equations. I mainly 
