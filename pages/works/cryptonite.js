@@ -18,8 +18,8 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://crypto-nite.vercel.app'>
-                            crypto-nite.vercel.app <ExternalLinkIcon mx="2px" />
+                        <Link href='/'>
+                            Unfortunately Cryptonite is no longer fully functional <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>

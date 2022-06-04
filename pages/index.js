@@ -51,10 +51,8 @@ const Page = () => {
                     science student at Ontario Tech U. I started this 
                     site as a blog/portfolio for myself. I&apos;ve many projects
                     on at the moment so check back in to see the posts 
-                    and works pages fill up. Also feel free to check out
-                    my spotify playlists right {' '}
-                    <Link href="https://open.spotify.com/user/beanie1357">here</Link>
-                    .</Paragraph>
+                    and works pages fill up.
+                    </Paragraph>
                     <Box align = "center" my={4}>
                         <NextLink href="/works">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme = "facebook">
@@ -73,11 +71,11 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2017</BioYear>
-                        I started highschool as Ursula Franklin Academy
+                        I started highschool at Ursula Franklin Academy
                     </BioSection>
                     <BioSection>
                         <BioYear>2021</BioYear>
-                        I graduate highschool and begin my freshman year at Ontario Tech
+                        I graduated highschool and began my freshman year at Ontario Tech
                     </BioSection>
                 </Section>
 
@@ -86,7 +84,7 @@ const Page = () => {
                         My Interests
                     </Heading>
                     <Paragraph>
-                    Coding | Design | Philosphy | Tabletop Gaming | Writing | Film & TV
+                    Coding | Design | Writing | Film & TV
                     </Paragraph>
                 </Section>
 
