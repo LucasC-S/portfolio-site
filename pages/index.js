@@ -2,9 +2,8 @@ import { Container, Box, Heading, Image, Link, useColorModeValue, Button, List, 
 import NextLink from 'next/link'
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import {
-    IoLogoInstagram,
     IoLogoGithub,
-    IoLogoDiscord
+    IoLogoLinkedin
 } from 'react-icons/io5'
 import Layout from "../components/layouts/article"
 import Section from "../components/section"
@@ -16,7 +15,7 @@ const Page = () => {
     <Layout>
     <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb ={6} align="center">
-                    Hello, I&apos;m a developer based in Canda :)
+                    Hello, I&apos;m a developer based in Canada :)
                 </Box>
                 
                 <Box display={{md:'flex'}}>
@@ -24,7 +23,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Lucas Crawhall-Stein
                         </Heading>
-                        <p>Student / Creator</p>
+                        <p>Full Stack Developer / Data Analyst</p>
                     </Box>
                     <Box 
                     flexShrink={0} 
@@ -47,11 +46,10 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         Work
                     </Heading>
-                    <Paragraph>Hi! I am Lucas, an undergraduate computer
-                    science student at Ontario Tech U. I started this 
-                    site as a blog/portfolio for myself. I&apos;ve many projects
-                    on at the moment so check back in to see the posts 
-                    and works pages fill up.
+                    <Paragraph>Hi! I am Lucas, an data quality specialist and full stack developer. I started this 
+                    site as a blog/portfolio for myself. I&apos;m always trying to expand my portfolio
+                    so check back in to see the posts 
+                    and works pages fill up. 
                     </Paragraph>
                     <Box align = "center" my={4}>
                         <NextLink href="/works">
@@ -66,16 +64,16 @@ const Page = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>2003</BioYear>
-                        I was born!
-                    </BioSection>
-                    <BioSection>
                         <BioYear>2017</BioYear>
-                        I started highschool at Ursula Franklin Academy
+                        I started highschool and taught myself to create websites in HTML and CSS.
                     </BioSection>
                     <BioSection>
                         <BioYear>2021</BioYear>
-                        I graduated highschool and began my freshman year at Ontario Tech
+                        I graduated highschool and began my freshman year at Ontario Tech.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2023</BioYear>
+                        I took a job at Co:Here as a Data Quality Specialist.
                     </BioSection>
                 </Section>
 
@@ -84,7 +82,7 @@ const Page = () => {
                         My Interests
                     </Heading>
                     <Paragraph>
-                    Coding | Design | Writing | Film & TV
+                    Web Development | Artificial Intelligence | Writing | Film & TV
                     </Paragraph>
                 </Section>
 
@@ -100,17 +98,19 @@ const Page = () => {
                                 </Button>
                             </Link>
                         </ListItem>
-                        <ListItem>
+                        {/*<ListItem>
                             <Link href="https://www.instagram.com/joos.stein/" target="_blank">
                                 <Button variant="ghost" colorScheme="facebook" leftIcon={<Icon as={IoLogoInstagram} />}>
                                     @joos.stein
                                 </Button>
                             </Link>
-                        </ListItem>
+                        </ListItem>*/}
                         <ListItem>
-                            <Button variant="ghost" colorScheme="facebook" leftIcon={<Icon as={IoLogoDiscord} />}>
-                                @TheOven#8994
-                            </Button>
+                            <Link href="https://www.linkedin.com/in/lucas-crawhall-stein-182a4b294" target="_blank">
+                                <Button variant="ghost" colorScheme="facebook" leftIcon={<Icon as={IoLogoLinkedin} />}>
+                                    Lucas Crawhall-Stein
+                                </Button>
+                            </Link>
                         </ListItem>
                     </List>
                 </Section>

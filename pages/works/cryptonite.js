@@ -13,7 +13,7 @@ const Work = () => {
                     Cryptonite <Badge>2021</Badge>
                 </Title>
                 <P>
-                    A crypto information site I developed using React, Redux, and Ant Design.
+                    A crypto information site I developed using React, Redux, and Ant Design. - DEPRECATED
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
