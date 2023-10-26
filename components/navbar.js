@@ -21,7 +21,7 @@ const LinkItem = ({ href, path, children}) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
-        <NextLink href={href}>
+        <NextLink href={href} legacyBehavior>
             <Link 
             p={2}
             bg={active ? 'glassTeal' : undefined}
@@ -30,7 +30,7 @@ const LinkItem = ({ href, path, children}) => {
                 {children}
             </Link>
         </NextLink>
-    )
+    );
 }
 
 const Navbar = props => {
@@ -74,13 +74,13 @@ const Navbar = props => {
                        <Menu>
                            <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" />
                            <MenuList>
-                               <NextLink href="/" passHref>
+                               <NextLink href="/" passHref legacyBehavior>
                                    <MenuItem as={Link}>About</MenuItem>
                                </NextLink>
-                               <NextLink href="/works" passHref>
+                               <NextLink href="/works" passHref legacyBehavior>
                                    <MenuItem as={Link}>Works</MenuItem>
                                </NextLink>
-                               <NextLink href="/posts" passHref>
+                               <NextLink href="/posts" passHref legacyBehavior>
                                    <MenuItem as={Link}>Posts</MenuItem>
                                </NextLink>
                            </MenuList>
@@ -89,7 +89,7 @@ const Navbar = props => {
                 </Box>
             </Container>
         </Box>
-    )
+    );
 }
 
 export default Navbar

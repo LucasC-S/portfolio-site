@@ -9,6 +9,12 @@
                 "varsIgnorePattern": "^_"
             }
         ],
+        "react/no-unknown-property": [
+            2,
+            {
+              "ignore": ["jsx", "global"]
+            }
+          ],
         "react/display-name": 0
     }
 }

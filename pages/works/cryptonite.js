@@ -32,14 +32,14 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Blogpost</Meta>
-                        <NextLink href="/posts/post3"><Link>Cryptonite and MarkUp Math</Link></NextLink>
+                        <NextLink href="/posts/post3" legacyBehavior><Link>Cryptonite and MarkUp Math</Link></NextLink>
                     </ListItem>
                 </List>
 
                 <WorkImage src="/cryptosplash.png" alt="MySite" />
             </Container>
         </Layout>
-    )
+    );
 }
 
 export default Work

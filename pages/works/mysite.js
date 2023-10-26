@@ -33,14 +33,14 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Blogpost</Meta>
-                        <NextLink href="/posts/post1"><Link>The Site Is Live!! (Kinda)</Link></NextLink>
+                        <NextLink href="/posts/post1" legacyBehavior><Link>The Site Is Live!! (Kinda)</Link></NextLink>
                     </ListItem>
                 </List>
 
                 <WorkImage src="/sitesplash.png" alt="MySite" />
             </Container>
         </Layout>
-    )
+    );
 }
 
 export default Work

@@ -21,19 +21,19 @@ const Logo = () => {
     const profImg = `/me.jpg`
 
     return (
-        <Link href="/">
-            <a>
-                <LogoBox>
-                    <Image src={profImg} width={32} height={32} alt="logo"/>
-                    <Text
-                    color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                    fontFamily='M PLUS Rounded 1c'
-                    fontWeight="bold"
-                    ml={3}>Lucas Crawhall-Stein</Text>
-                </LogoBox>
-            </a>
-        </Link>
-    )
+        (<Link href="/">
+            <LogoBox>
+                {/*<Image src={profImg} width={32} height={32} alt="logo"/>*/}
+                <Text
+                color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+                fontFamily='M PLUS Rounded 1c'
+                fontWeight="bold"
+                ml={3}
+                mb={3}>Lucas Crawhall-Stein</Text>
+            </LogoBox>
+
+        </Link>)
+    );
 }
 
 export default Logo

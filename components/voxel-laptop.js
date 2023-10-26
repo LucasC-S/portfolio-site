@@ -34,10 +34,12 @@ const VoxelLaptop = () => {
     }
   }, [renderer])
 
+  let done = 0
   /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     const { current: container } = refContainer
-    if (container && !renderer) {
+    if (container && !renderer && done < 1) {
+      done += 1
       const scW = container.clientWidth
       const scH = container.clientHeight
 
@@ -47,13 +49,13 @@ const VoxelLaptop = () => {
       })
       renderer.setPixelRatio(window.devicePixelRatio)
       renderer.setSize(scW, scH)
-      renderer.outputEncoding = THREE.sRGBEncoding
+      renderer.linearEncoding = THREE.SRGBColorSpace
       container.appendChild(renderer.domElement)
       setRenderer(renderer)
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.005 + 0.8
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -76,7 +78,7 @@ const VoxelLaptop = () => {
 
       loadGLTFModel(scene, '/laptop.glb', {
         receiveShadow: false,
-        castShadow: false
+        castShadow: true
       }).then(() => {
         animate()
         setLoading(false)

@@ -33,7 +33,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Blogpost</Meta>
-                        <NextLink href="/posts/post2"><Link>Meet: Markup</Link></NextLink>
+                        <NextLink href="/posts/post2" legacyBehavior><Link>Meet: Markup</Link></NextLink>
                     </ListItem>
                 </List>
 
@@ -41,7 +41,7 @@ const Work = () => {
                 <WorkImage src="/markUpMath.png" alt="MarkUpMath" />
             </Container>
         </Layout>
-    )
+    );
 }
 
 export default Work

@@ -30,12 +30,12 @@ const Post = () => {
                 <P>
                     P.S If you have any suggestions for the site
                     feel free to message me on any of my socials
-                    on the <NextLink href="\"><Link>
+                    on the <NextLink href="/" legacyBehavior><Link>
                     Home Page </Link></NextLink>.
                 </P>
             </Container>
         </Layout>
-    )
+    );
 }
 
 export default Post
