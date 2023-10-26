@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
@@ -18,10 +17,10 @@ padding: 10px
 `
 
 const Logo = () => {
-    const profImg = `/me.jpg`
+    //const profImg = `/me.jpg`
 
     return (
-        (<Link href="/">
+        (<Link href="/" passHref>
             <LogoBox>
                 {/*<Image src={profImg} width={32} height={32} alt="logo"/>*/}
                 <Text

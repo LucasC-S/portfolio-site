@@ -3,8 +3,7 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import {
     IoLogoGithub,
-    IoLogoLinkedin,
-    IoMail
+    IoLogoLinkedin
 } from 'react-icons/io5'
 import Layout from "../components/layouts/article"
 import Section from "../components/section"
