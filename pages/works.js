@@ -27,7 +27,7 @@ const Works  = () => {
                 </Section>
                 <Section>
                     <WorkGridItem id="cryptonite" title="Cryptonite" thumbnail={thumbCrypto}>
-                        MarkUp
+                        Cryptonite
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
